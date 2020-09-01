@@ -1,179 +1,148 @@
 export const accessibilityCollection = {
-	name: "Accessibility",
+	name: "국립 해양 박물관",
 	areas: [
 		{
 			skills: [
 				{
-					name: "The why",
+					name: "관람 안내",
 					description: {
-						text: "Learn what accessibility is and why it is important.",
+						text: "국립 해양 박물관에 대한 안내를 볼수 있는 곳입니다.",
 						links: [
-							["Google Devs - Accessibility Fundamentals", "https://developers.google.com/web/fundamentals/accessibility/"],
-							["A11ycasts with Rob Dodson", "https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g"],
-							["Udacity - Chromevox Lite", "http://udacity.github.io/ud891/lesson3-semantics-built-in/02-chromevox-lite/"],
-							["Dev.to - Why Accessibility Matters", "https://dev.to/lhoffmanwg1/why-accessibility-matters-39nl"],
-							["Abilitynet - Why Accessibility Matters", "https://www.abilitynet.org.uk/why-accessibility-matters"],
-							["Udacity - Web Accessibility", "https://www.udacity.com/course/web-accessibility--ud891"],
-							["Youtube - Headings, Landmarks, and Tabs", "https://www.youtube.com/watch?v=HE2R86EZPMA"],
+							["관람안내", "https://www.knmm.or.kr/?folder=information&page=viewing"],
+							
 						]
 					}
 				},
 				{
-					name: "Screen Readers",
+					name: "오시는 길",
 					description: {
-						text: "Learn about assistive technology such as screen readers that reads sections of the page aloud based on the current focus.",
+						text: "해양 박물관에 오시는길을 알려드립니다.",
 						links: [
-							["The A11Y Project - Screen Reader Myths", "https://a11yproject.com/posts/people-who-use-screen-readers-dont-use-javascript/"],
-							["The A11Y Project - NVDA Screen Reader", "https://a11yproject.com/posts/getting-started-with-nvda/"],
-							["The A11Y Project - OS X Voiceover", "https://a11yproject.com/posts/getting-started-with-voiceover/"],
-							["Webaim - Screen Reader Survey", "https://webaim.org/projects/screenreadersurvey7/"]
+							["박물관 오는길", "https://www.knmm.or.kr/?folder=information&page=location"],
+							
 						]
 					}
 				},
 				{
-					name: "Accessibility tree",
+					name: "시설 안내",
 					description: {
-						text: "Learn about the accessibility tree and how assistive technology uses it.",
+						text: "국립 해양 박물관의 건물의 구조나 시설을 알아 볼 수 있는 곳입니다.",
 						links: [
-							["Google Devs - The Accessibility Tree", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/the-accessibility-tree"]
+							["국립 해양 박물관 시설 안내", "https://www.knmm.or.kr/?folder=information&page=facility"]
 						]
 					},
 					skills: [
 						{
-							name: "ARIA",
+							name: "전시태마 안내",
 							description: {
-								text: "Learn how to use ARIA descriptions an labels to help assistive technology understanding your website.",
+								text: "각층에 전시된 전시품들의 태마를 알 수 있는 곳이다.",
 								links: [
-									["Google Devs - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
-									["Google Devs - Hiding and updating content", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/hiding-and-updating-content"],
-									["The A11Y Project - ARIA States", "https://a11yproject.com/posts/ARIA-states/"],
-									["The A11Y Project - ARIA Properties", "https://a11yproject.com/posts/ARIA-properties/"],
+									["각층의 전시태마 안내", "https://www.knmm.or.kr/?folder=exhibition&page=floor"],
+								
 								]
 							}
 						},
 						{
-							name: "Accessible HTML",
+							name: "소장품 안내",
 							description: {
-								text: "Learn how to write HTML in such as way that assistive technology better understands it.",
+								text: "이곳은 국립 해양 박물관의 소장품의 정보나 검색을 할 수 있는 곳입니다.",
 								links: [
-									["Google Devs - Introduction to Semantics", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/"],
-									["MDN - Accessibility HTML", "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML"],
-									["Webaim - Skip navigation", "https://webaim.org/techniques/skipnav/"],
-									["w3c - Headings", "https://www.w3.org/WAI/tutorials/page-structure/headings/"],
-									["Freecodecamp - Semantic Elements", "https://guide.freecodecamp.org/html/html5-semantic-elements/"]
+									["박물관 소장품 검색", "https://www.knmm.or.kr/?folder=collection&page=list&type=search"],
+								
 								]
 							},
 							skills: [
 								{
-									name: "Alt text",
+									name: "기획전시 안내",
 									description: {
-										text: "Learn how to use the alt attribute to provide a useful text alternative to this image.",
+										text: "이곳에서는 박물관에서 개시하는 기획전시에 관련된 내용에 대하여 알 수있는 곳입니다.",
 										links: [
-											["Google Devs - Text Alternatives for Images", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/text-alternatives-for-images"],
-											["Webaim - Accessible Images", "https://webaim.org/techniques/images/"],
-											["Webaim - Alternative text", "https://webaim.org/techniques/alttext/"],
+											["기획전시안내", "https://www.knmm.or.kr/?folder=exhibition&page=list&cate=now_upcoming"],
+											
 										]
 									}
 								}
 							]
 						},
 						{
-							name: "Accessible CSS",
+							name: "전시자료",
 							description: {
-								text: "Learn how to write CSS in such as way that assistive technology better understands it.",
+								text: "이곳에서는 국립 해양 박물관에 전시자료에 대한 내용들을 열람할 수 있습나다.",
 								links: [
-									["Webaim - CSS", "https://webaim.org/techniques/css/"]
+									["전시자료 안내", "https://www.knmm.or.kr/?folder=bbs&page=list&board_id=exhibition"]
 								]
 							}
 						},
 					]
 				},
 				{
-					name: "Accessible forms",
+					name: "야외전시 알람",
 					description: {
-						text: "Learn how to build accessible forms that makes it usable to as many people as possible.",
+						text: "국립 해양 박물관에 서 운영하는 야외관람에 대한 정보를 알 수 있는 곳입니다.",
 						links: [
-							["Webaim - Forms", "https://webaim.org/techniques/forms/"],
-							["Itnext - Form Accessibility Gudie", "https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14"]
+							["야외전시 알람", "https://www.knmm.or.kr/?folder=exhibition&page=outdoor"],
+							
 						]
 					}
 				},
 				{
-					name: "UI States",
+					name: "이벤트",
 					description: {
-						text: "Learn how to make the state of each UI element clear.",
+						text: "국립해양 박물관에서 열리는 이벤트에 관한 정보를 알 수 있는 곳입니다.",
 						links: [
-							["Google Devs - Accessible Styles", "https://developers.google.com/web/fundamentals/accessibility/accessible-styles"]
+							["이벤트 안내", "https://www.knmm.or.kr/?folder=education&page=list&type=C"]
 						]
 					}
 				},
 				{
-					name: "Keyboard Accessibility",
+					name: "관람 예약",
 					description: {
-						text: "Learn how to make it easy for keyboard users to navigate your site.",
+						text: "박물관 관람에 대한 예약에 관한 정보를 알 수 있는 곳입니다.",
 						links: [
-							["Webaim - Keyboard", "https://webaim.org/techniques/keyboard/"],
-							["Smashing Magazine - Web with just a keyboard", "https://www.smashingmagazine.com/2018/07/web-with-just-a-keyboard/"]
+							["관람 예약안내", "https://www.knmm.or.kr/?folder=information&page=comment"],
+						
 						]
 					},
 					skills: [
 						{
-							name: "Focus",
+							name: "기증",
 							description: {
-								text: "Learn how to create a sensible tab order and how to make it easy for the users to locate the currently focused element.",
+								text: "이곳에서는 기증에 관한 내용과 절차를 알 수 있는 곳입니다.",
 								links: [
-									["web.dev - Control focus with tabindex", "https://web.dev/control-focus-with-tabindex/"],
-									["Google Devs - Focus", "https://developers.google.com/web/fundamentals/accessibility/focus/"],
-									["Google Devs - Dom Order Matters", "https://developers.google.com/web/fundamentals/accessibility/focus/dom-order-matters"],
-									["Google Devs - Using Tabindex", "https://developers.google.com/web/fundamentals/accessibility/focus/using-tabindex"],
-									["Google Devs - Track Focus", "https://developers.google.com/web/tools/chrome-devtools/accessibility/focus"],
-									["MDN - :focus-visible", "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible"],
-									["MDN - :focus-within", "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within"]
+									["기증 안내", "https://www.knmm.or.kr/?folder=collection&page=donation"],
+									
 								]
 							}
 						}
 					]
 				},
 				{
-					name: "Accessible Colors",
+					name: "박물관 일정",
 					description: {
-						text: "Learn how to select colors in such a way that users, including those with visual disabilities, can perceive the content on the page.",
+						text: "이곳에서는 박물관에 대한 일정에 관하여 알 수 있는 곳입니다.",
 						links: [
-							["Webaim - Contrast and Color", "https://webaim.org/articles/contrast/"],
-							["The A11Y Project - Check contrast", "https://a11yproject.com/posts/check-contrast-with-mobile-device/"],
-							["The A11Y Project - What is color contrast?", "https://a11yproject.com/posts/what-is-color-contrast/"],
-							["Designing accessible color systems", "https://stripe.com/en-dk/blog/accessible-color-systems"],
+							["박물관일정안내", "https://www.knmm.or.kr/?folder=information&page=schedule"],
+							
 						]
 					}
 				},
 				{
-					name: "Laws & Policies",
+					name: "학술행사",
 					description: {
-						text: "Learn about the governmental policies related to web accessibility.",
+						text: "이곳에서는 국립해양 박물관에서 열리는 학술행사에 관한 내용들을 알 수 있는 곳입니다.",
 						links: [
-							["W3C - Laws & Policies", "https://www.w3.org/WAI/policies/"],
-							["Webaim - Laws around the world", "https://webaim.org/articles/laws/world/"],
-							["Webaim - Section 508", "https://webaim.org/standards/508/checklist"],
-							["Webaim - WCAG 2 Checklist", "https://webaim.org/standards/wcag/checklist"],
-							["A11Y.dev - Lawsuits", "https://a11y.dev/470-digital-accessibility-cases-were-filed-in-q3-2018/"],
+							["학술행사안내", "https://www.knmm.or.kr/?folder=research&page=list&type=A&status=all"],
+							
 						]
 					},
 					skills: [
 						{
-							name: "Audits",
+							name: "교육",
 							description: {
-								text: "Learn how to conduct an accessibility review to improve the overall experience of using your site. Remember, good accessibility equals good UX!",
+								text: "이곳에서는 박물관에서 진행하는 교육에 관한 내용들을 알 수 있는 곳입니다.",
 								links: [
-									["web.dev - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
-									["Google Devs - How to review", "https://developers.google.com/web/fundamentals/accessibility/how-to-review"],
-									["Webaim - Accessibility Tools", "https://webaim.org/articles/tools/"],
-									["Google Devs - Accessibility Reference", "https://developers.google.com/web/tools/chrome-devtools/accessibility/reference"],
-									["Webaim - Wave", "http://wave.webaim.org/"],
-									["Google Chrome - NoCoffee Extension", "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl"],
-									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"],
-									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"],
-									["WCAG 2.0 checklists", "https://www.wuhcag.com/wcag-checklist/"],
-									["How to Meet WCAG (Quick Reference)", "https://www.w3.org/WAI/WCAG21/quickref/"],
+									["교육안내", "https://www.knmm.or.kr/?folder=education&page=list&type=E&status=present"],
+									
 								]
 							}
 						}
