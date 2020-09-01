@@ -1,28 +1,22 @@
 export const webcomponentsCollection = {
-	name: "Web Components",
+	name: "국립중앙박물관",
 	areas: [
 		{
 			name: "VR",
 			skills: [
 				{
-					name: "Custom Elements",
+					name: "인간, 물질 그리고 변형-핀란드 디자인 10 000년",
 					description: {
-						text: "Learn how to create new HTML tags with Custom Elements.",
+						text: "MAN, MATTER, METAMORPHOSIS 10 000 YEARS OF DESIGN",
 						links: [
-							["Google Devs - Custom Elements", "https://developers.google.com/web/fundamentals/web-components/customelements"],
-							["MDN - Using Custom Elements", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements"],
-							["CSS Tricks - Creating a Custom Element from Scratch", "https://css-tricks.com/creating-a-custom-element-from-scratch/"],
-							["Javascript.info - Custom Elements", "https://javascript.info/custom-elements"],
-							["dev.to - An introduction to Custom Elements", "https://dev.to/jamesrweb/an-introduction-to-custom-elements-5327"],
-							["itnext - Introduction to Web Components", "https://itnext.io/introduction-to-web-components-part-i-custom-elements-4de6713cef9d"],
-							["web.dev - Web Components", "https://web.dev/web-components-io-2019/"]
+							["2019.12.21-2020.05.10", "https://www.museum.go.kr/site/main/content/vr_museum"]
 						]
 					}
 				},
 				{
-					name: "HTML Templates",
+					name: "가야본성-칼(劍)과 현(絃)",
 					description: {
-						text: "Learn how to use HTML templates to create flexible templates that can then be used to populate the Shadow DOM.",
+						text: "GAYA SPIRIT-IRON AND TUNE",
 						links: [
 							["MDN - Using Templates & Slots", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots"],
 							["Javascript.info - Template Element", "https://javascript.info/template-element"],
