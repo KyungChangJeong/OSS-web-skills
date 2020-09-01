@@ -2,6 +2,7 @@ export const webcomponentsCollection = {
 	name: "Web Components",
 	areas: [
 		{
+			name: "VR",
 			skills: [
 				{
 					name: "Custom Elements",
